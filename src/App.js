@@ -1,13 +1,47 @@
-import React from 'react';
-import Header from './components/header';
-import EmptyDesign from './components/empty-design';
-import './App.css';
+import React from 'react'
+import Header from './components/header'
+import Body from './components/body'
+import EmptyDesign from './components/empty-design'
+import Users from './components/users'
+import Teams from './components/teams'
+import './App.css'
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      isEmpty: true
+      users: [
+        {
+          name: 'Norman M. New',
+          avatar: 'https://i.pravatar.cc/80?img=52'
+        },
+        {
+          name: 'Sharon L. Allred',
+          avatar: 'https://i.pravatar.cc/80?img=24'
+        },
+        {
+          name: 'Ruth C. Baker',
+          avatar: 'https://i.pravatar.cc/80?img=25'
+        },
+        {
+          name: 'Betty J. Spencer',
+          avatar: 'https://i.pravatar.cc/80?img=26'
+        }
+      ],
+      teams: [
+        {
+          name: 'Devs',
+          avatar: 'https://placedog.net/90/90'
+        },
+        {
+          name: 'Designers',
+          avatar: 'https://placedog.net/100/100'
+        },
+        {
+          name: 'Operations',
+          avatar: 'https://placedog.net/80/80'
+        }
+      ]
     }
   }
 
@@ -15,9 +49,13 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header/>
-        {this.state.isEmpty &&
-          <EmptyDesign />
-        }
+        <Body>
+          <Users info={this.state.users}></Users>
+          <Teams info={this.state.teams}></Teams>
+          {this.state.users.length === 0 &&
+            <EmptyDesign />
+          }
+        </Body>
       </div>
     );
   }

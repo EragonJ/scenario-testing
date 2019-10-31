@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import {
   Button,
   Classes,
@@ -7,7 +7,7 @@ import {
   NavbarDivider,
   NavbarGroup,
   NavbarHeading,
-} from "@blueprintjs/core";
+} from "@blueprintjs/core"
 
 export default () => {
   return (

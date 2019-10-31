@@ -1,0 +1,11 @@
+.team {
+  width: 200px;
+  margin: 0 1%;
+  margin-bottom: 1rem;
+}
+
+.team .avatar {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
