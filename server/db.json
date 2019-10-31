@@ -1,9 +1,46 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "users": [
+    {
+      "name": "Norman M. New",
+      "avatar": "https://i.pravatar.cc/80?img=52"
+    },
+    {
+      "name": "Sharon L. Allred",
+      "avatar": "https://i.pravatar.cc/80?img=24"
+    },
+    {
+      "name": "Ruth C. Baker",
+      "avatar": "https://i.pravatar.cc/80?img=25"
+    },
+    {
+      "name": "Betty J. Spencer",
+      "avatar": "https://i.pravatar.cc/80?img=26"
+    },
+    {
+      "name": "Amanda J. Dowell",
+      "avatar": "https://i.pravatar.cc/80?img=27"
+    },
+    {
+      "name": "Regina L. Hendry",
+      "avatar": "https://i.pravatar.cc/80?img=28"
+    },
+    {
+      "name": "Lisa A. Montana",
+      "avatar": "https://i.pravatar.cc/80?img=30"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "teams": [
+    {
+      "name": "Devs",
+      "avatar": "https://placedog.net/90/90"
+    },
+    {
+      "name": "Designers",
+      "avatar": "https://placedog.net/100/100"
+    },
+    {
+      "name": "Operations",
+      "avatar": "https://placedog.net/80/80"
+    }
+  ]
 }

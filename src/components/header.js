@@ -15,7 +15,7 @@ export default () => {
     <Navbar className={Classes.DARK}>
       <NavbarGroup>
         <NavbarHeading>
-          <Button className={Classes.MINIMAL} icon="home" text="Scenario Testing" />
+          <Button className={Classes.MINIMAL} icon="home" text="Marvel" />
         </NavbarHeading>
         <NavbarDivider />
         <ScenarioDropdown/>

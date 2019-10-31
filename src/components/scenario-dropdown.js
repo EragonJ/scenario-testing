@@ -6,9 +6,12 @@ import {
   Position
 } from "@blueprintjs/core";
 
-const SCENARIO_KEY_IN_LOCALSTORAGE = 'scenario'
+import {
+  SCENARIO_KEY_IN_LOCALSTORAGE 
+} from '../constant'
 
 const SCENARIOS = {
+  DEFAULT: 'Default',
   NO_USER_WITH_NO_TEAM: 'No user with no team',
   SEVEN_USERS_WITH_NO_TEAM: '7 users with no team',
   NO_USERS_WITH_THREE_TEAMS: 'No users with 3 teams',
