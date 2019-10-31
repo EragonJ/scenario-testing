@@ -1,4 +1,5 @@
 import React from 'react'
+import ScenarioDropdown from './scenario-dropdown'
 import {
   Button,
   Classes,
@@ -17,6 +18,7 @@ export default () => {
           <Button className={Classes.MINIMAL} icon="home" text="Scenario Testing" />
         </NavbarHeading>
         <NavbarDivider />
+        <ScenarioDropdown/>
       </NavbarGroup>
       <NavbarGroup align={Alignment.RIGHT}>
         <Button className={Classes.MINIMAL} icon="log-out" text="Logout" />

@@ -26,6 +26,18 @@ class App extends React.Component {
         {
           name: 'Betty J. Spencer',
           avatar: 'https://i.pravatar.cc/80?img=26'
+        },
+        {
+          name: 'Amanda J. Dowell',
+          avatar: 'https://i.pravatar.cc/80?img=27'
+        },
+        {
+          name: 'Regina L. Hendry',
+          avatar: 'https://i.pravatar.cc/80?img=28'
+        },
+        {
+          name: 'Lisa A. Montana',
+          avatar: 'https://i.pravatar.cc/80?img=29'
         }
       ],
       teams: [
