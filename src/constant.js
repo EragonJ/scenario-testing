@@ -1,2 +1,4 @@
-export const SCENARIO_KEY_IN_LOCALSTORAGE = 'scenario'
-export const SERVER_URL = 'http://localhost:3001'
+module.exports = {
+  SCENARIO_KEY_IN_LOCALSTORAGE: 'x-scenario',
+  SERVER_URL: 'http://localhost:3001'
+}
