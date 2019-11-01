@@ -1,8 +1,4 @@
 import React from 'react'
-import {
-  Card,
-  Elevation
-} from "@blueprintjs/core"
 import './team.css'
 
 export default (props) => {
