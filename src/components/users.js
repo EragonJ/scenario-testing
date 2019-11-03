@@ -7,8 +7,8 @@ export default ({ info }) => {
     <>
       <h1>Users</h1>
       <div className={'users'}>
-        {info.map((userInfo) => {
-          return <User info={userInfo}/>
+        {info.map((userInfo, index) => {
+          return <User key={index} info={userInfo}/>
         })}
       </div>
     </>

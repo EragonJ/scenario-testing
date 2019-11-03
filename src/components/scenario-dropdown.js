@@ -3,8 +3,8 @@ import {
   Menu,
   Button,
   Popover,
-  Position
-} from "@blueprintjs/core";
+  Position,
+} from '@blueprintjs/core';
 
 import {
   SCENARIOS,

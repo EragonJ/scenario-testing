@@ -7,8 +7,8 @@ export default ({ info }) => {
     <>
       <h1>Teams</h1>
       <div className={'teams'}>
-        {info.map((teamInfo) => {
-          return <Team info={teamInfo}/>
+        {info.map((teamInfo, index) => {
+          return <Team key={index} info={teamInfo}/>
         })}
       </div>
     </>
