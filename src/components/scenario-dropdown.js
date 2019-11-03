@@ -15,7 +15,7 @@ class ScenarioDropdown extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      selectedScenario: localStorage.getItem(SCENARIO_KEY_IN_LOCALSTORAGE)
+      selectedScenario: localStorage.getItem(SCENARIO_KEY_IN_LOCALSTORAGE) || 'DEFAULT'
     }
   }
   onClick(scenarioType) {
